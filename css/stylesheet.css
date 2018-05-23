@@ -17,10 +17,13 @@ body {
 }
 
 h2, p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     color: #424242;
 }
 
+#title {
+    text-decoration: none;
+}
 #headerbar {
     background-color: #d1d1d1;
     overflow: auto;
