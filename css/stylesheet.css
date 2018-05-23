@@ -80,18 +80,18 @@ h2, p {
     margin-bottom: 0px;
     overflow: hidden;
     max-height: initial;
-    height: 80vh;
+    height: 85vh;
 }
 
 #intro-inner > p {
     position: relative;
-    margin-bottom: 20px;
+    
 }
 
 .arrow {
     height: 10%;
     width: 10%;
-    margin-top: 10vh;
+    margin-top: 3vh;
     padding: 10px;
 }
 #about {
