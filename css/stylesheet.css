@@ -18,10 +18,11 @@ body {
 
 h2, p {
     font-family: 'Open Sans', sans-serif;
+    color: #424242;
 }
 
 #headerbar {
-    background-color: #e6f4e8;
+    background-color: #d1d1d1;
     overflow: auto;
     text-align: center;
     height: 60px;
@@ -59,6 +60,7 @@ h2, p {
     font-size: 50px;
     height: 100vh;
     padding: 0px;
+    background-color: #ffffff;
 }
 
 #intro-inner {
@@ -71,7 +73,7 @@ h2, p {
     text-align: left;
     font-size: 20px;
     height: calc(100vh - 60px);
-    background-color: rgb(232, 255, 246);
+    background-color: rgb(244, 253, 255);
 }
 #about-inner {
     position: absolute;
