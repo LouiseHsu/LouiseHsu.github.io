@@ -1,6 +1,7 @@
 html {
     overflow: hidden;
     height: 100%;
+    overflow: auto;
 }
 a {
     color: #707070;
@@ -131,6 +132,14 @@ h2, p {
     font-size: 20px;
     height: calc(100vh - 60px);
     background-color: rgb(158, 255, 231);
+    text-align: center;
+}
+
+#project-title {
+    position: absolute;
+    left: 46.5vw;
+    top: 7vh;
+    z-index: 20;
 }
 
 #project1 {
