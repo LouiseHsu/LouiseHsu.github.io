@@ -131,7 +131,7 @@ h2, p {
     position: relative;
     font-size: 20px;
     height: calc(100vh - 60px);
-    background-color: rgb(158, 255, 231);
+    background-color: rgb(210, 255, 216);
     text-align: center;
 }
 
@@ -177,6 +177,7 @@ h2, p {
     width: 35vw;
     height: 35vw;
     border-radius: 3%;
+    box-shadow: 3px 3px 5px #6d6c6c;
 }
 
 .project-description-layer {
