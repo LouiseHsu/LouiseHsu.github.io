@@ -135,14 +135,14 @@ h2, p {
 
 #project1 {
     float: left;
-
+    left: 5vh;
     width: 50vw;
 
 }
 
 #project2 {
     float: left;
-
+    right: 5vh;
     width: 50vw;
 
 }
@@ -167,30 +167,40 @@ h2, p {
 .project-cover {
     width: 35vw;
     height: 35vw;
-
-
+    border-radius: 3%;
 }
 
 .project-description-layer {
+    word-wrap: break-word;
     position: relative;
     width: 35vw;
     top: calc(-35vw - 5px);
-    /*
-    
+    align-items: center;
     text-align: center;
-    padding: 0px;
-    margin: 0px auto;
-    */
+    visibility: hidden;
 }
 
 .project-description {
     width: 35vw;
     height: 35vw;
-    background-color: blueviolet;
+    background:rgba(170, 170, 170, 0.5);
     text-align: center;
     margin: 0px auto;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 3%;
 }
 
+#project1link:hover .project-description-layer {
+    visibility: visible;
+    opacity: 1;
+}
+
+#project2link:hover .project-description-layer {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 

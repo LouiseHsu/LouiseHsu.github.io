@@ -1,19 +1,6 @@
 $(document).ready(function() {
   var  pgSection = $(window).height()-70;
-/*
-  $("a").click(function(e) {
-    var linkHref = $(this).attr('href');
-    console.log($(linkHref).offset().top - 70);
-    console.log($(linkHref));
-    $('html, body').animate({
 
-      scrollTop: ($(linkHref).offset().top - 70)
-    });
-
-    e.preventDefault();
-    
-  });
-  */
  $("#title").click(function() {
   console.log("clicked");
   $('html, body').animate({
@@ -35,6 +22,14 @@ $("#projectsnav, #aboutarrow").click(function() {
   });
 });
 
+/*$(window).scroll(function () {
+  var scroll = $(window).scrollTop();
+  console.log(scroll);
+  console.log((window).height()-70);
+  if (scroll < $(window).height()-70) {
+    $('#title').text('Projects');
+  }
+});*/
 
 
   function bounceArrow() {
