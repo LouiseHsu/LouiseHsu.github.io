@@ -116,6 +116,8 @@ h2, p {
     border-width: 20px;
     border-style: solid;
     border-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #6d6c6c;
 }
 
 #aboutarrow{
@@ -130,4 +132,67 @@ h2, p {
     height: calc(100vh - 60px);
     background-color: rgb(158, 255, 231);
 }
+
+#project1 {
+    float: left;
+
+    width: 50vw;
+
+}
+
+#project2 {
+    float: left;
+
+    width: 50vw;
+
+}
+
+.project-display {
+    position: relative;
+    margin: 0px auto;
+    text-align: center;
+    vertical-align: center;
+    height: calc(100vh - 70px);
+}
+
+.project-display > a {
+    padding: 0px;
+    margin: 0px auto;
+    display: block;
+    height: 35vw;
+    width: 35vw;
+    margin-top: calc((100vh - 35vw - 60px)/2);
+}
+
+.project-cover {
+    width: 35vw;
+    height: 35vw;
+
+
+}
+
+.project-description-layer {
+    position: relative;
+    width: 35vw;
+    top: calc(-35vw - 5px);
+    /*
+    
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto;
+    */
+}
+
+.project-description {
+    width: 35vw;
+    height: 35vw;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+
+
+
 
