@@ -125,7 +125,7 @@ h2, p {
 #aboutarrow{
     text-align: center;
     position: relative;
-    top: 60vh;  
+    top: 25%;  
 }
 
 #projects {
@@ -147,14 +147,14 @@ h2, p {
     float: left;
     left: 5vh;
     width: 50vw;
-
+    position: absolute;
 }
 
 #project2 {
     float: left;
     right: 5vh;
     width: 50vw;
-
+    position: absolute;
 }
 
 .project-display {
