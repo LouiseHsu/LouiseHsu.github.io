@@ -122,10 +122,13 @@ h2, p {
     box-shadow: 3px 3px 5px #6d6c6c;
 }
 
+#introarrow {
+    top: calc(60vh + 70px);
+}
 #aboutarrow{
     text-align: center;
     position: relative;
-    top: 25%;  
+    top: 50vh;  
 }
 
 #projects {
